@@ -94,7 +94,7 @@ export default function Ive_finally_done_it() {
                 This method relies on:
             </p>
 
-            <ol className="list-decimal list-outside pl-6 space-y-2">
+            <ol className="list-decimal list-outside pl-6 space-y-2 mb-4">
                 <li>
                     having an iPad, but could be done if you have a printer. 
                     I understand this isn't the most accessible option for everyone. 
@@ -123,7 +123,7 @@ export default function Ive_finally_done_it() {
                 Humor me on this thought experiment. We take notes for 2 reasons:
             </p>
 
-            <ol className="list-decimal list-outside pl-6 space-y-2">
+            <ol className="list-decimal list-outside pl-6 space-y-2 mb-4">
                 <li>
                     Studies show that writing things down helps you remember them. 
                     And hand writing things helps you remember them better than typing. 
@@ -144,7 +144,7 @@ export default function Ive_finally_done_it() {
             we can review our notes and the book at the same time. Here's a step-by-step:
             </p>
 
-            <ol className="list-decimal list-outside pl-6 space-y-2">
+            <ol className="list-decimal list-outside pl-6 space-y-2 mb-4">
                 <li>
                     First, you need to use the app Notability. 
                     I have heard people like GoodNotes too, but I've never used it so I can't speak to it's credibility.

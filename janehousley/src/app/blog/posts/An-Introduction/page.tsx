@@ -2,7 +2,7 @@ import BlogPostLayout from "@components/BlogPostLayout";
 
 export default function An_introduction() {
     return (
-        <BlogPostLayout title="An Introduction" subtitle="Welcome to class" date="4 June 2024">
+        <BlogPostLayout title="An Introduction" subtitle="Welcome to class" date="30 June 2024">
            
            <p>
                 Blogs are coming back in the same way that film cameras are coming back in. 

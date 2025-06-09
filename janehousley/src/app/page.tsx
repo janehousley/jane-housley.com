@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Header from "@components/Header";
+import FramedImage from "@components/FramedImage";
 
 export default function Home() {
   return (
@@ -40,18 +41,23 @@ export default function Home() {
       {/* Lamp Glow */}
       <div className="absolute bottom- z-10 w-140 h-140 rounded-full bg-yellow-200 opacity-60 blur-2xl"></div>
 
+      <FramedImage
+        src="/images/frame1.png"
+        alt="A beautiful painting"
+        caption="This is a beautiful painting I made."
+      />
 
-      {/* Intro Text */}
+
+      {/* Intro Text
       <div className="relative z-40 max-w-md ml-auto mr-20 mt-40 text-right bg-white/75 p-6 rounded-lg">
         <h1 className="text-5xl font-bold text-gray-800 mb-6">Hi!</h1>
         <p className="text-lg text-gray-700 leading-relaxed">
-          My name is Jane Housley. I'm a recent graduate with a master's
+          My name is Jane Housley. Formally, I'm a recent graduate with a master's
           degree in mathematics from BYU. I studied applied math and computer
           science in my undergrad, and as a result, I love solving problems and
-          writing code. In my free time, I love to create music and art. I love
-          to write.
+          writing code. 
         </p>
-      </div>
+      </div> */}
     </main>
 
   );
