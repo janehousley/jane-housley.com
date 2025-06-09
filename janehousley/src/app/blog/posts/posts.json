@@ -1,0 +1,52 @@
+[
+    {
+      "title": "AI and Education",
+      "subtitle": "What is the appropriate role of AI in the classroom? How do we prevent students from becoming ChatGPT-regurgitating zombies?",
+      "date": "22 May 2025",
+      "slug": "AI-and-Education",
+      "image": "blog_thumbnails/ai_education.jpg"
+    },
+
+    {
+      "title": "The best advice I got in college: A mix of study tips and \"you're actually doing alright's\"",
+      "subtitle": "How to get straight A's, be social, and calm your anxieties about the future.",
+      "date": "12 May 2025",
+      "slug": "The-best-advice-I-got-in-college",
+      "image": "blog_thumbnails/advice.jpg"
+
+    },
+
+    {
+      "title": "What I didn't post on LinkedIn",
+      "subtitle": "Ain't no growth in the comfort zone, baby!",
+      "date": "26 February 2025",
+      "slug": "What-I-didnt-post-on-LinkedIn",
+      "image": "blog_thumbnails/linkedin.jpg"
+
+    },
+
+    {
+      "title": "When I was little my mother told me",
+      "subtitle": "From the Notes app. Dated March 30, 2023",
+      "date": "20 January 2025",
+      "slug": "When-I-was-little-my-mother-told-me",
+      "image": "blog_thumbnails/creative.jpeg"
+    },
+
+    {
+      "title": "I've finally done it",
+      "subtitle": "Learned how to take perfect mathematical notes",
+      "date": "4 November 2024",
+      "slug": "Ive-finally-done-it",
+      "image": "blog_thumbnails/good_notes.jpg"
+    },
+
+    {
+      "title": "An Introduction",
+      "subtitle": "Welcome to class.",
+      "date": "30 June 2024",
+      "slug": "An-Introduction",
+      "image": "blog_thumbnails/an_introduction.jpeg"
+    }
+]
+  
