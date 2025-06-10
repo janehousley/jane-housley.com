@@ -23,7 +23,7 @@
         "description": "",
         "price": 5.00,
         "cover": "/music_thumbnails/I Know That My Redeemer Lives:If You Could Hie to Kolob.jpg",
-        "audio": "public/sheet_music_audio/I-Know-That-My-Redeemer-Lives-Hie-To-Kolob.mp3",
+        "audio": "/sheet_music_audio/I-Know-That-My-Redeemer-Lives-Hie-To-Kolob.mp3",
         "paypalButtonId": "XVJDZ8LGG5A2A"
       }
 ]

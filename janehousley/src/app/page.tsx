@@ -56,14 +56,14 @@ export default function Home() {
 
       {/* {Lamp} */}
       <div 
-        className="absolute left-25 bottom-20 z-30 cursor-pointer"
+        className="absolute left-25 bottom-30 z-30 cursor-pointer"
         onClick={() => setLampOn(!lampOn)}
       >
         <Image
           src="/lamp.png"
           alt="Lamp"
-          width={225}
-          height={225}
+          width={200}
+          height={200}
         />
       </div>
 
@@ -146,6 +146,7 @@ export default function Home() {
         alt="Friends"
         caption="A group of my friends and I during a Friendsgiving dinner last November. 
         As my 5 years in Provo comes to an end, I'm able to look back and reflect on all the friends I've made and the love I've felt. 
+        I've been blessed with great friendships during my time at BYU.
         I like to count how many new people I meet a day, and have been shocked to average more than 1 new person every single day."
         top="100px"
         left="700px"
@@ -157,7 +158,7 @@ export default function Home() {
         alt="Siblings"
         caption="My four siblings and I in Disneyland last October.
          We've always been very close, enjoying every minute we get to spend together. 
-         Now, my family spans the entire United States, with sisters in both Oregon and Washington, D.C. 
+         Now, my family spans the entire United States, with sisters in both Oregon and Washington, D.C.. 
         Times we get to be all together are rare and cherished. From left to right: Claire, Rachel, Grant, Jane, Kate."
         top="200px"
         left="500px"

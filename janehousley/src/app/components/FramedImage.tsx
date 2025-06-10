@@ -40,7 +40,7 @@ export default function FramedImage({ src, alt, caption, top = "200px", left = "
             onClick={(e) => e.stopPropagation()} // prevent modal close when clicking inside
           >
             <img src={src} alt={alt} className="max-h-[80vh] max-w-full mb-2" />
-            <p className="text-center text-gray-700">{caption}</p>
+            <p className="bg-white/80 shadow-lg rounded text-center text-gray-700">{caption}</p>
             <button
               className="absolute top-2 right-2 text-gray-500 hover:text-black"
               onClick={() => setIsOpen(false)}

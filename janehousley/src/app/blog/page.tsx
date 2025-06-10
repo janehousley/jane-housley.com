@@ -23,7 +23,7 @@ export default function Blog() {
                 <h1 className="text-4xl font-bold text-gray-800 mt-24 mb-4">Janie's House</h1>
             </div>
 
-            <div className="max-w-4xl bg-white/60 p-3 rounded-lg space-x-6 items-center mb-12">
+            <div className="max-w-4xl bg-white/60 p-3 rounded-lg space-x-6 shadow-lg items-center mb-12">
                 <p className="italic text-gray-500 text-sm text-center">
                     I do a lot of thinking, and if I think about something for a long time, and I can bottle it up in a nice way, then I can store it here and make some space in my brain to think about something else. 
                     This is essentially a storage unit for my thoughts.
