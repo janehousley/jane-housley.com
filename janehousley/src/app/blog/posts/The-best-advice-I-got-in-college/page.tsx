@@ -2,7 +2,7 @@ import BlogPostLayout from "@/app/components/BlogPostLayout";
 
 export default function The_best_advice_I_got_in_college() {
     return (
-        <BlogPostLayout title="The best advice I got in college: A mix of study tips and &apos;you&apos;re actually doing alright&apos;s" subtitle="How to get straight A&apos;s, be social, and calm your anxieties about the future." date="12 May 2025">
+        <BlogPostLayout title="The best advice I got in college: A mix of study tips and &quot;you&apos;re actually doing alright&apos;s&quot;" subtitle="How to get straight A&apos;s, be social, and calm your anxieties about the future." date="12 May 2025">
             <p>
                 A few months ago, I was sitting at a lunch in the BYU MOA cafe with several other math grad students 
                 and Dr. Anna Little, a professor at the University of Utah, who was visiting for a forum speech that day. 
