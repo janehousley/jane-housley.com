@@ -20,7 +20,7 @@ export default function Blog() {
             <Header />
 
             <div>
-                <h1 className="text-4xl font-bold text-gray-800 mt-24 mb-4">Janie's House</h1>
+                <h1 className="text-4xl font-bold text-gray-800 mt-24 mb-4">Janie@apos;s House</h1>
             </div>
 
             <div className="max-w-4xl bg-white/60 p-3 rounded-lg space-x-6 shadow-lg items-center mb-12">
