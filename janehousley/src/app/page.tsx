@@ -146,8 +146,7 @@ export default function Home() {
         alt="Friends"
         caption="A group of my friends and I during a Friendsgiving dinner last November. 
         As my 5 years in Provo comes to an end, I'm able to look back and reflect on all the friends I've made and the love I've felt. 
-        I've been blessed with great friendships during my time at BYU.
-        I like to count how many new people I meet a day, and have been shocked to average more than 1 new person every single day."
+        I've been blessed with great friendships during my time at BYU."
         top="100px"
         left="700px"
         width="110px"
@@ -197,7 +196,7 @@ export default function Home() {
       <FramedImage
         src="/framedimages/thekisspng.png"
         alt="The Kiss"
-        caption="My favorite painting of all time is The Kiss by Gustav Klimt. I studied Art and Architecture abroad in Vienna in 2022 and learn a lot about Klimt and other Austrian and German artists. 
+        caption="My favorite painting of all time is The Kiss by Gustav Klimt. I studied Art and Architecture abroad in Vienna in 2022 and learned a lot about Klimt and other Austrian and German artists. 
         It was a life-changing experience."
         top="125px"
         left="400px"
