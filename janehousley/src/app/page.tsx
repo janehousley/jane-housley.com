@@ -168,7 +168,8 @@ export default function Home() {
       <FramedImage
         src="/framedimages/honey.png"
         alt="Honey"
-        caption="My dog, Honey."
+        caption="My dog, Honey. We drove from Arizona to Utah for a family ski trip one winter, and drove home with a little puppy. 
+        There was a lot of debate on what we should name her, but we settled on Honey. The runner-up was Chewy."
         top="225px"
         left="400px"
         width="80px"

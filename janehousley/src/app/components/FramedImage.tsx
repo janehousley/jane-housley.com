@@ -1,5 +1,6 @@
 "use client";
 import { useState } from "react";
+import Image from "next/image";
 
 type FramedImageProps = {
   src: string;
@@ -16,9 +17,7 @@ export default function FramedImage({ src, alt, caption, top = "200px", left = "
   return (
     <>
       {/* The framed image on the wall */}
-      <img
-        src={src}
-        alt={alt}
+      <div
         className="cursor-pointer z-40 transition-transform duration-300 hover:scale-105"
         style={{
           width: width,
@@ -27,7 +26,14 @@ export default function FramedImage({ src, alt, caption, top = "200px", left = "
           left,
         }}
         onClick={() => setIsOpen(true)}
-      />
+      >
+        <Image
+          src={src}
+          alt={alt}
+          width={500}
+          height={500}
+        />
+      </div>
 
       {/* The modal */}
       {isOpen && (
@@ -39,7 +45,15 @@ export default function FramedImage({ src, alt, caption, top = "200px", left = "
             className="bg-[url('/wallpaper2.jpg')] p-4 rounded shadow-lg max-w-3xl relative"
             onClick={(e) => e.stopPropagation()} // prevent modal close when clicking inside
           >
-            <img src={src} alt={alt} className="max-h-[80vh] max-w-full mb-2" />
+            <div className="relative w-full h-[80vh] mb-2">
+              <Image
+                src={src}
+                alt={alt}
+                fill
+                style={{ objectFit: "contain" }}
+                sizes="(max-width: 768px) 100vw, 1024px"
+              />
+            </div>
             <p className="bg-white/80 shadow-lg rounded text-center text-gray-700">{caption}</p>
             <button
               className="absolute top-2 right-2 text-gray-500 hover:text-black"

@@ -1,4 +1,5 @@
 import BlogPostLayout from "@/app/components/BlogPostLayout";
+import Image from "next/image";
 
 export default function What_I_didnt_post() {
     return (
@@ -27,9 +28,11 @@ export default function What_I_didnt_post() {
                 A few weeks ago, I quickly jotted down in my notes app:
             </p>
 
-            <img
+            <Image
                 src="/blog_thumbnails/linkedin_notes_app.jpg"
                 alt="Notes app screenshot"
+                width={850}
+                height={500}
             />
 
             <p>
@@ -87,9 +90,11 @@ export default function What_I_didnt_post() {
                 Growth zone, here I come! Bon voyage!
             </p>
 
-            <img
+            <Image
                 src="/blog_thumbnails/linkedin.jpg"
                 alt="Mt Timp"
+                width={850}
+                height={500}
             />
         </BlogPostLayout>
     );

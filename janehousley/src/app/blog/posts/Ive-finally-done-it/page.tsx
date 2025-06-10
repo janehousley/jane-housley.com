@@ -1,6 +1,8 @@
 import BlogPostLayout from "@components/BlogPostLayout";
 import 'katex/dist/katex.min.css';
 import { InlineMath, BlockMath } from 'react-katex';
+import Image from "next/image";
+
 
 export default function Ive_finally_done_it() {
     return (
@@ -43,9 +45,11 @@ export default function Ive_finally_done_it() {
             The only thing they really did that my textbook didn@apos;t was look cute.
             </p>
 
-            <img
+            <Image
                 src="/blog_thumbnails/bad_notes.png"
                 alt="Overdone Notes"
+                width={850}
+                height={500}
             />
 
             <p className="italic">
@@ -61,9 +65,11 @@ export default function Ive_finally_done_it() {
             even if I never looked back at them.
             </p>
 
-            <img
+            <Image
                 src="/blog_thumbnails/bad_notes2.jpg"
                 alt="Underdone Notes"
+                width={850}
+                height={500}
             />
 
             <p className="italic">
@@ -212,9 +218,11 @@ export default function Ive_finally_done_it() {
                 like in your textbook. So when you go back to study, you@apos;ll think @quot;oh yeah, I remember this!@quot;
             </p>
 
-            <img
+            <Image
                 src="/blog_thumbnails/good_notes.jpg"
                 alt="Good Notes"
+                width={850}
+                height={500}
             />
             <p className="italic">
                 Notes from Real Analysis, this semester.
