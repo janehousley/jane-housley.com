@@ -9,12 +9,12 @@ export default function What_I_didnt_post() {
             </p>
 
             <p className="italic">
-                “This August, I@apos;ll be moving to Madison, Wisconsin to work full time as a software developer at Epic! 
+                @quot;This August, I@apos;ll be moving to Madison, Wisconsin to work full time as a software developer at Epic! 
                 I could not be more grateful to be returning to such an impressive and impactful company for my first 
                 job after college. I believe in and support everything Epic stands for, and I feel lucky to have the 
                 opportunity to contribute to their goal to @apos;Save Lives@apos;. I greatly enjoyed being a software developer 
                 intern at Epic during the summers of 2023 and 2024 and am excited to see my role expand as a full time 
-                developer. See you soon, WI!”
+                developer. See you soon, WI!@quot;
             </p>
 
             <p>
@@ -68,8 +68,8 @@ export default function What_I_didnt_post() {
                 like the mountains and Cottonwood Canyon. All I can do is stare and stare and stare at them, 
                 hoping to take as much of them with me as I can. It@apos;s like carrying a handful of water to Wisconsin. 
                 A fruitless endeavor, but noble and worthwhile nonetheless. I could lay down and kiss the Earth, 
-                kiss Utah@apos;s dirt, and proclaim to her how much I@apos;ll miss her. I imagine she says, “I@apos;m not going anywhere, 
-                and neither are your memories of me.” Jumping in the Provo River in November. Studying on the 5th floor 
+                kiss Utah@apos;s dirt, and proclaim to her how much I@apos;ll miss her. I imagine she says, @quot;I@apos;m not going anywhere, 
+                and neither are your memories of me.@quot; Jumping in the Provo River in November. Studying on the 5th floor 
                 of the HBLL. Walking to Kiwanis Park. Flying out of the Provo Airport. Hiking Mt. Timpanogos. Going 
                 to Baking Club on Wednesdays. Running into exes. Sitting on the train. Wearing a cap and gown, 
                 showing my family where I study math every day. Hosting a Galentine@apos;s Brunch. Crying in the Tanner 
@@ -78,12 +78,12 @@ export default function What_I_didnt_post() {
 
             <p>
                 I remind myself these memories never go away. I remind myself of the exciting new thing that wait for 
-                me in Madison. I listen to “Vienna” by Billy Joel. Then, I listen to “Landslide” by The Chicks.
+                me in Madison. I listen to @quot;Vienna@quot; by Billy Joel. Then, I listen to @quot;Landslide@quot; by The Chicks.
             </p>
 
             <p>
                 I@apos;m very nostalgic, and right now it@apos;s to a fault. Sometimes I metaphorically shake myself by the 
-                shoulders and say, “Oh, come on. You@apos;re not going to <em>war</em>.” I@apos;m not. I@apos;m going to Madison, Wisconsin. 
+                shoulders and say, @quot;Oh, come on. You@apos;re not going to <em>war</em>.@quot; I@apos;m not. I@apos;m going to Madison, Wisconsin. 
                 Growth zone, here I come! Bon voyage!
             </p>
 
