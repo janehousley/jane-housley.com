@@ -2,6 +2,7 @@
 import Header from "@components/Header";
 import Footer from "@components/Footer";
 import posts from "./posts/posts.json";
+import Image from "next/image";
 
 import Link from "next/link";
 import { useState } from "react";
@@ -50,11 +51,15 @@ export default function Blog() {
                             href={`/blog/posts/${post.slug}`}
                             className="group flex bg-white/80 p-6 rounded-lg shadow-lg hover:bg-white transition space-x-6 items-center"
                         >
-                            <img
-                                src={post.image}
-                                alt={post.title}
-                                className="w-32 h-32 object-cover rounded-lg flex-shrink-0"
-                            />
+                           <div className="relative w-32 h-32 flex-shrink-0 rounded-lg overflow-hidden">
+                                <Image
+                                    src={post.image}
+                                    alt={post.title}
+                                    fill
+                                    style={{ objectFit: "cover" }}
+                                    sizes="(max-width: 768px) 100vw, 128px"
+                                />
+                            </div>
 
                             <div>
                                 <h2 className="text-2xl font-bold text-gray-800 group-hover:text-red-900">{post.title}</h2>

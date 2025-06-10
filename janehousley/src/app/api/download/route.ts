@@ -23,7 +23,7 @@ export async function GET(req: NextRequest) {
         "Content-Disposition": `attachment; filename="${pdfParam}"`,
       },
     });
-  } catch (_err) {
+  } catch {
     return new NextResponse("File not found", { status: 404 });
   }
 }
