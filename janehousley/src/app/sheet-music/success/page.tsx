@@ -1,5 +1,6 @@
 "use client";
 
+import { Suspense } from "react";
 import { useSearchParams } from "next/navigation";
 
 const sheetMusicMap: Record<string, { title: string; pdfPath: string }> = {
@@ -17,7 +18,7 @@ const sheetMusicMap: Record<string, { title: string; pdfPath: string }> = {
   },
 };
 
-export default function SuccessPage() {
+function SuccessContent() {
   const searchParams = useSearchParams();
   const id = searchParams.get("id");
 
@@ -45,5 +46,13 @@ export default function SuccessPage() {
         <p>Missing or invalid item. Please contact us if you have any issues.</p>
       )}
     </main>
+  );
+}
+
+export default function SuccessPage() {
+  return (
+    <Suspense fallback={<div className="min-h-screen flex items-center justify-center">Loading...</div>}>
+      <SuccessContent />
+    </Suspense>
   );
 }
