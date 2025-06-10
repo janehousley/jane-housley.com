@@ -2,25 +2,25 @@ import BlogPostLayout from "@/app/components/BlogPostLayout";
 
 export default function What_I_didnt_post() {
     return (
-        <BlogPostLayout title="What I didn't post on LinkedIn" subtitle="Ain't no growth in the comfort zone, baby!" date="26 February 2025">
+        <BlogPostLayout title="What I didn@apos;t post on LinkedIn" subtitle="Ain@apos;t no growth in the comfort zone, baby!" date="26 February 2025">
             <p>
                 My LinkedIn has a shiny new post, beaming with bright eyes of hope and opportunity, 
                 wearing a pantsuit probably. It says:
             </p>
 
             <p className="italic">
-                “This August, I'll be moving to Madison, Wisconsin to work full time as a software developer at Epic! 
+                “This August, I@apos;ll be moving to Madison, Wisconsin to work full time as a software developer at Epic! 
                 I could not be more grateful to be returning to such an impressive and impactful company for my first 
                 job after college. I believe in and support everything Epic stands for, and I feel lucky to have the 
-                opportunity to contribute to their goal to 'Save Lives'. I greatly enjoyed being a software developer 
+                opportunity to contribute to their goal to @apos;Save Lives@apos;. I greatly enjoyed being a software developer 
                 intern at Epic during the summers of 2023 and 2024 and am excited to see my role expand as a full time 
                 developer. See you soon, WI!”
             </p>
 
             <p>
-                It's all true, but there's emotional dimension hidden behind these ecstatic and glowing words. 
-                There's bittersweetness and a little bit of fear. There's excitement for the future joined at 
-                the hip with preemptive grief for what I'm leaving behind.
+                It@apos;s all true, but there@apos;s emotional dimension hidden behind these ecstatic and glowing words. 
+                There@apos;s bittersweetness and a little bit of fear. There@apos;s excitement for the future joined at 
+                the hip with preemptive grief for what I@apos;m leaving behind.
             </p>
 
             <p>
@@ -33,13 +33,13 @@ export default function What_I_didnt_post() {
             />
 
             <p>
-                That's all. Like a line of a poem. As you can see, I'm feeling quite melodramatic about my exodus 
-                to the midwest. I've made lists of things I'm going to miss, as a way to remind myself to savor it all. 
-                I recognize I've grown very comfortable in Utah. My apartment is lived-in and feels like home. 
+                That@apos;s all. Like a line of a poem. As you can see, I@apos;m feeling quite melodramatic about my exodus 
+                to the midwest. I@apos;ve made lists of things I@apos;m going to miss, as a way to remind myself to savor it all. 
+                I recognize I@apos;ve grown very comfortable in Utah. My apartment is lived-in and feels like home. 
                 I know my favorite grocery stores and local restaurants. I know which streets have fewer stop signs 
-                and the fastest ways to get to my friends' houses. I know my friends' schedules. 
+                and the fastest ways to get to my friends@apos; houses. I know my friends@apos; schedules. 
                 I know who will go grocery shopping with me; I know who will invite me over to watch a movie. 
-                I know my friends' friends.
+                I know my friends@apos; friends.
             </p>
             
             <p>
@@ -55,24 +55,24 @@ export default function What_I_didnt_post() {
             </p>
 
             <p>
-                So, you can see, I'm very comfortable here. I have my routines and my favorite places and friends all 
-                ironed out. That's part of why moving to Wisconsin is scary to me right now. New habits, 
-                libraries, grocery stores. New weather and a new room layout. I've tried to be blindingly optimistic 
+                So, you can see, I@apos;m very comfortable here. I have my routines and my favorite places and friends all 
+                ironed out. That@apos;s part of why moving to Wisconsin is scary to me right now. New habits, 
+                libraries, grocery stores. New weather and a new room layout. I@apos;ve tried to be blindingly optimistic 
                 about it. I love a clean slate almost as much as I dread goodbyes. As often as I feel caught in 
                 self-pity and anxiety over this change, I force myself to acknowledge all of the things I will 
-                love that I don't even know about yet. There may not be a South End Market, but there is a James Madison Park.
+                love that I don@apos;t even know about yet. There may not be a South End Market, but there is a James Madison Park.
             </p>
 
             <p>
                 The things I worry most about missing are the things that are not so easily replaceable, 
                 like the mountains and Cottonwood Canyon. All I can do is stare and stare and stare at them, 
-                hoping to take as much of them with me as I can. It's like carrying a handful of water to Wisconsin. 
+                hoping to take as much of them with me as I can. It@apos;s like carrying a handful of water to Wisconsin. 
                 A fruitless endeavor, but noble and worthwhile nonetheless. I could lay down and kiss the Earth, 
-                kiss Utah's dirt, and proclaim to her how much I'll miss her. I imagine she says, “I'm not going anywhere, 
+                kiss Utah@apos;s dirt, and proclaim to her how much I@apos;ll miss her. I imagine she says, “I@apos;m not going anywhere, 
                 and neither are your memories of me.” Jumping in the Provo River in November. Studying on the 5th floor 
                 of the HBLL. Walking to Kiwanis Park. Flying out of the Provo Airport. Hiking Mt. Timpanogos. Going 
                 to Baking Club on Wednesdays. Running into exes. Sitting on the train. Wearing a cap and gown, 
-                showing my family where I study math every day. Hosting a Galentine's Brunch. Crying in the Tanner 
+                showing my family where I study math every day. Hosting a Galentine@apos;s Brunch. Crying in the Tanner 
                 Building bathroom. Watching the sunset over Utah Lake.
             </p>
 
@@ -82,8 +82,8 @@ export default function What_I_didnt_post() {
             </p>
 
             <p>
-                I'm very nostalgic, and right now it's to a fault. Sometimes I metaphorically shake myself by the 
-                shoulders and say, “Oh, come on. You're not going to <em>war</em>.” I'm not. I'm going to Madison, Wisconsin. 
+                I@apos;m very nostalgic, and right now it@apos;s to a fault. Sometimes I metaphorically shake myself by the 
+                shoulders and say, “Oh, come on. You@apos;re not going to <em>war</em>.” I@apos;m not. I@apos;m going to Madison, Wisconsin. 
                 Growth zone, here I come! Bon voyage!
             </p>
 
