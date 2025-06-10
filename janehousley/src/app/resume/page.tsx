@@ -1,4 +1,5 @@
 import Header from "@components/Header";
+import Footer from "@components/Footer";
 
 export default function Resume() {
     return (
@@ -13,6 +14,8 @@ export default function Resume() {
                     className="mt-32 mb-32 w-[650px] h-[900px] border rounded shadow"
                 />
             </div>
+
+            <Footer />
         </main>
     );
 }

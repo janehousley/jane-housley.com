@@ -1,4 +1,5 @@
 import Header from "@components/Header";
+import Footer from "@components/Footer";
 import { GoMail } from "react-icons/go";
 import { CiLinkedin } from "react-icons/ci";
 
@@ -25,6 +26,7 @@ export default function Contact() {
                     </a>
                 </div>
             </div>
+            <Footer/>
         </main>
     );
 }

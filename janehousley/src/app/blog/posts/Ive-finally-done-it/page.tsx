@@ -1,4 +1,6 @@
 import BlogPostLayout from "@components/BlogPostLayout";
+import 'katex/dist/katex.min.css';
+import { InlineMath, BlockMath } from 'react-katex';
 
 export default function Ive_finally_done_it() {
     return (
@@ -182,11 +184,7 @@ export default function Ive_finally_done_it() {
                     a pretty good job. When my professors provide examples, I add a blank page in my textbook and 
                     copy down their examples. Most of my annotations are notation clarifications (which I've found is 
                     90% of the source of confusion in math classes!) If your textbook says something like this:
-                    {/* <p className="align_center">
-                        \( f \\in L^{\\infty}([0,1]) \\text{ if ess sup}_{E} |f| &lt; \\infty \)
-                    </p> */}
-
-                    write down what the definition of ess sup is in the margin next to it! 
+                    <BlockMath math="\text{ess sup}_E \, |f| < \infty," /> write down what the definition of <InlineMath math="\text{ess sup}"/> is in the margin next to it! 
                     There's no way you remember what it is—that's slippery math. 
                     And there's no reason to force yourself to look it up every time. Just give yourself a hand—write it down.
                 </li>
