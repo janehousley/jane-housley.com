@@ -3,7 +3,6 @@
 import sheetMusicData from "./sheetMusicData.json";
 import SheetMusicCard from "@components/SheetMusicCard";
 import Header from "@components/Header";
-import Footer from "@components/Footer";
 
 export default function SheetMusicStore() {
   return (
