@@ -135,38 +135,6 @@ export default function Home() {
       {/* Mobile scene */}
       <div className="block md:hidden relative min-h-screen w-full overflow-hidden bg-[url('/wallpaper2.jpg')] bg-cover bg-center">
 
-        {/* Floor */}
-        <div className="absolute bottom-0 w-full h-32 z-10">
-          <Image
-            src="/floor.png"
-            alt="Wooden Floor"
-            layout="fill"
-            objectFit="cover"
-            priority
-          />
-        </div>
-
-        {/* Couch */}
-        <div className="absolute bottom-12 left-1/2 transform -translate-x-1/2 z-20 w-[280px]">
-          <Image src="/pink-couch.png" alt="Couch" width={600} height={600} />
-        </div>
-
-        {/* Lamp */}
-        <div
-          className="absolute bottom-12 left-4 z-20 w-[100px] cursor-pointer"
-          onClick={() => setLampOn(!lampOn)}
-        >
-          <Image src="/lamp.png" alt="Lamp" width={200} height={200} />
-        </div>
-
-        {/* Side Table */}
-        <div
-          className="absolute bottom-12 right-4 z-20 w-[120px] cursor-pointer transition-transform duration-300 hover:scale-105"
-          onClick={() => setShowReadingWindow(!showReadingWindow)}
-        >
-          <Image src="/sidetable.png" alt="Side Table" width={250} height={250} />
-        </div>
-
         {/* Framed Images row */}
         <div className="flex flex-wrap justify-center gap-4 px-4 pt-6 z-30 relative max-w-[90vw] mx-auto">
           <FramedImage
@@ -215,6 +183,39 @@ export default function Home() {
             Some of my favorite places are Park City Ski Resort, Yosemite, the Grand Canyon, and Myrtle Beach."
             width="80px"
           />
+        </div>
+        
+        
+        {/* Floor */}
+        <div className="absolute bottom-0 w-full h-32 z-10">
+          <Image
+            src="/floor.png"
+            alt="Wooden Floor"
+            layout="fill"
+            objectFit="cover"
+            priority
+          />
+        </div>
+
+        {/* Couch */}
+        <div className="absolute bottom-12 left-1/2 transform -translate-x-1/2 z-20 w-[280px]">
+          <Image src="/pink-couch.png" alt="Couch" width={600} height={600} />
+        </div>
+
+        {/* Lamp */}
+        <div
+          className="absolute bottom-12 left-4 z-20 w-[100px] cursor-pointer"
+          onClick={() => setLampOn(!lampOn)}
+        >
+          <Image src="/lamp.png" alt="Lamp" width={200} height={200} />
+        </div>
+
+        {/* Side Table */}
+        <div
+          className="absolute bottom-12 right-4 z-20 w-[120px] cursor-pointer transition-transform duration-300 hover:scale-105"
+          onClick={() => setShowReadingWindow(!showReadingWindow)}
+        >
+          <Image src="/sidetable.png" alt="Side Table" width={250} height={250} />
         </div>
 
       </div>
