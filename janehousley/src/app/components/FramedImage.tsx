@@ -37,7 +37,16 @@ export default function FramedImage({
         }}
         onClick={() => setIsOpen(true)}
       >
-        <Image src={src} alt={alt} width={500} height={500} />
+        <div className="relative w-full aspect-square">
+          <Image
+            src={src}
+            alt={alt}
+            fill
+            style={{ objectFit: "contain" }}
+            sizes="(max-width: 768px) 100vw, 1024px"
+          />
+        </div>
+
       </div>
 
       {/* The modal */}
