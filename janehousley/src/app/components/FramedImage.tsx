@@ -47,7 +47,7 @@ export default function FramedImage({
           onClick={() => setIsOpen(false)}
         >
           <div
-            className="bg-[url('/wallpaper2.jpg')] p-4 rounded shadow-lg max-w-3xl relative"
+            className="bg-[url('/wallpaper2.jpg')] p-3 md:p-4 rounded shadow-lg w-[90vw] max-w-sm md:max-w-3xl relative"
             onClick={(e) => e.stopPropagation()}
           >
             <div className="relative w-full h-[80vh] mb-2">

@@ -168,7 +168,7 @@ export default function Home() {
         </div>
 
         {/* Framed Images row */}
-        <div className="flex flex-wrap justify-center gap-4 pt-6 z-30 relative">
+        <div className="flex flex-wrap justify-center gap-4 px-4 pt-6 z-30 relative max-w-[90vw] mx-auto">
           <FramedImage
             src="/framedimages/friends.png"
             alt="Friends"
@@ -193,7 +193,30 @@ export default function Home() {
             It was a life-changing experience."
             width="80px"
           />
+          <FramedImage
+            src="/framedimages/honey.png"
+            alt="Honey"
+            caption="My dog, Honey. We drove from Arizona to Utah for a family ski trip one winter, and drove home with a little puppy. 
+            There was a lot of debate on what we should name her, but we settled on Honey. The runner-up was Chewy."
+            width="80px"
+          />
+          <FramedImage
+            src="/framedimages/parents.png"
+            alt="Parents"
+            caption="I graduated in April 2025 with a masters degree in Math from BYU. 
+            My parents both studied math at BYU, so it was a special experience to have both of them at my graduation ceremony."
+            width="80px"
+          />
+          <FramedImage
+            src="/framedimages/ski.png"
+            alt="Ski"
+            caption="Enjoying the outdoors has always been a big emphasis in my family. Between skiing, boating, backpacking, river rafting, and much more, 
+            I've come to appreciate the beauty and fun that this earth has to offer. 
+            Some of my favorite places are Park City Ski Resort, Yosemite, the Grand Canyon, and Myrtle Beach."
+            width="80px"
+          />
         </div>
+
       </div>
 
 
