@@ -7,13 +7,14 @@ export default function Resume() {
             {/* Header Navigation */}
             <Header />
 
-            <div className="flex flex-col items-center">
+            <div className="flex flex-col items-center px-4">  {/* add some side padding */}
                 <iframe
                     src="/Jane_Housley_Resume.pdf"
                     title="Jane Housley Resume"
-                    className="mt-32 mb-32 w-[650px] h-[900px] border rounded shadow"
+                    className="mt-32 mb-32 w-full max-w-[650px] aspect-[8.5/11] border rounded shadow"
                 />
             </div>
+
 
             <Footer />
         </main>

@@ -4,7 +4,7 @@
       "subtitle": "What is the appropriate role of AI in the classroom? How do we prevent students from becoming ChatGPT-regurgitating zombies?",
       "date": "22 May 2025",
       "slug": "AI-and-Education",
-      "image": "blog_thumbnails/ai_education.jpg"
+      "image": "/blog_thumbnails/ai_education.jpg"
     },
 
     {
@@ -12,7 +12,7 @@
       "subtitle": "How to get straight A's, be social, and calm your anxieties about the future.",
       "date": "12 May 2025",
       "slug": "The-best-advice-I-got-in-college",
-      "image": "blog_thumbnails/advice.jpg"
+      "image": "/blog_thumbnails/advice.jpg"
 
     },
 
@@ -21,7 +21,7 @@
       "subtitle": "Ain't no growth in the comfort zone, baby!",
       "date": "26 February 2025",
       "slug": "What-I-didnt-post-on-LinkedIn",
-      "image": "blog_thumbnails/linkedin.jpg"
+      "image": "/blog_thumbnails/linkedin.jpg"
 
     },
 
@@ -30,7 +30,7 @@
       "subtitle": "From the Notes app. Dated March 30, 2023",
       "date": "20 January 2025",
       "slug": "When-I-was-little-my-mother-told-me",
-      "image": "blog_thumbnails/creative.jpeg"
+      "image": "/blog_thumbnails/creative.jpeg"
     },
 
     {
@@ -38,7 +38,7 @@
       "subtitle": "Learned how to take perfect mathematical notes",
       "date": "4 November 2024",
       "slug": "Ive-finally-done-it",
-      "image": "blog_thumbnails/good_notes.jpg"
+      "image": "/blog_thumbnails/good_notes.jpg"
     },
 
     {
@@ -46,7 +46,7 @@
       "subtitle": "Welcome to class.",
       "date": "30 June 2024",
       "slug": "An-Introduction",
-      "image": "blog_thumbnails/an_introduction.jpeg"
+      "image": "/blog_thumbnails/an_introduction.jpeg"
     }
 ]
   

@@ -13,7 +13,7 @@ type SheetMusicItem = {
   
 export default function SheetMusicCard({ item }: { item: SheetMusicItem }) {
     return (
-        <div className="bg-white rounded-lg shadow p-4 flex flex-col items-center">
+        <div className="bg-white text-gray-900 rounded-lg shadow p-4 flex flex-col items-center">
         <div className="relative w-full h-48 mb-4">
                 <Image
                     src={item.cover}

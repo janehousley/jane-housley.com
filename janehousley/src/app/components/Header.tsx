@@ -21,7 +21,7 @@ export default function Header() {
             <h1 className="text-xl font-bold text-gray-800">Jane Housley</h1>
           </div>
         </Link>
-        <ul className="flex space-x-6 text-base font-medium">
+        <ul className="flex flex-wrap justify-end space-x-4 text-base font-medium">
           <li><Link href="/" className={linkClass("/")}>Home</Link></li>
           <li><Link href="/resume" className={linkClass("/resume")}>Resume</Link></li>
           <li><Link href="/blog" className={linkClass("/blog")}>Blog</Link></li>

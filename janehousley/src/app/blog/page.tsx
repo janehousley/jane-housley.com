@@ -32,13 +32,13 @@ export default function Blog() {
             </div>
 
             {/* Search bar */}
-            <div className="mb-6">
+            <div className="mb-6 px-4 w-full flex text-gray-600 justify-center">
                 <input
                     type="text"
                     placeholder="Search posts..."
                     value={query}
                     onChange={(e) => setQuery(e.target.value)}
-                    className="px-4 py-2 w-200 border border-gray-300 rounded-lg bg-white/60 focus:outline-none focus:ring-2 focus:ring-red-700"
+                    className="px-4 py-2 w-full max-w-xs md:max-w-sm lg:max-w-md border border-gray-300 rounded-lg bg-white/60 focus:outline-none focus:ring-2 focus:ring-red-700"
                 />
             </div>
 
@@ -64,7 +64,7 @@ export default function Blog() {
                             <div>
                                 <h2 className="text-2xl font-bold text-gray-800 group-hover:text-red-900">{post.title}</h2>
                                 <p className="text-sm text-gray-500 mb-2">{post.date}</p>
-                                <p className="text-sm">{post.subtitle}</p>
+                                <p className="text-gray-900 text-sm">{post.subtitle}</p>
                             </div>
                         </Link>
                     ))

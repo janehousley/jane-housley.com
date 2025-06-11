@@ -5,7 +5,7 @@ import { CiLinkedin } from "react-icons/ci";
 
 export default function Contact() {
     return (
-        <main className="relative min-h-screen w-full bg-[url('/wallpaper2.jpg')] bg-cover bg-center overflow-hidden flex items-center justify-center">
+        <main className="relative min-h-screen w-full bg-[url('/wallpaper2.jpg')] text-gray-900 bg-cover bg-center overflow-hidden flex items-center justify-center">
             {/* Header Navigation */}
             <Header />
             <div className="flex flex-col">

@@ -8,42 +8,47 @@ type FramedImageProps = {
   caption: string;
   top?: string;
   left?: string;
-  width? : string;
+  width?: string;
 };
 
-export default function FramedImage({ src, alt, caption, top = "200px", left = "300px" , width="100px"}: FramedImageProps) {
+export default function FramedImage({
+  src,
+  alt,
+  caption,
+  top = "200px",
+  left = "300px",
+  width = "100px",
+}: FramedImageProps) {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
     <>
-      {/* The framed image on the wall */}
+      {/* The framed image */}
       <div
-        className="cursor-pointer z-40 transition-transform duration-300 hover:scale-105"
+        className={`
+          cursor-pointer z-40 transition-transform duration-300 hover:scale-105
+          relative md:absolute
+        `}
         style={{
-          width: width,
-          position: "absolute",
+          width,
+          // Only apply top/left in md:absolute mode (harmless on relative mobile because they don't apply)
           top,
           left,
         }}
         onClick={() => setIsOpen(true)}
       >
-        <Image
-          src={src}
-          alt={alt}
-          width={500}
-          height={500}
-        />
+        <Image src={src} alt={alt} width={500} height={500} />
       </div>
 
       {/* The modal */}
       {isOpen && (
         <div
-          className="fixed inset-0  flex items-center justify-center z-50"
+          className="fixed inset-0 flex items-center justify-center z-50"
           onClick={() => setIsOpen(false)}
         >
           <div
             className="bg-[url('/wallpaper2.jpg')] p-4 rounded shadow-lg max-w-3xl relative"
-            onClick={(e) => e.stopPropagation()} // prevent modal close when clicking inside
+            onClick={(e) => e.stopPropagation()}
           >
             <div className="relative w-full h-[80vh] mb-2">
               <Image
