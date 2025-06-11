@@ -133,15 +133,27 @@ export default function Home() {
       </div>
 
       {/* Mobile scene */}
-      <div className="block md:hidden relative min-h-screen flex flex-col items-center justify-center text-center p-6 space-y-6">
+      <div className="block md:hidden relative min-h-screen w-full overflow-hidden bg-[url('/wallpaper2.jpg')] bg-cover bg-center">
+
+        {/* Floor */}
+        <div className="absolute bottom-0 w-full h-32 z-10">
+          <Image
+            src="/floor.png"
+            alt="Wooden Floor"
+            layout="fill"
+            objectFit="cover"
+            priority
+          />
+        </div>
+
         {/* Couch */}
-        <div className="relative z-30 w-[280px]">
+        <div className="absolute bottom-12 left-1/2 transform -translate-x-1/2 z-20 w-[280px]">
           <Image src="/pink-couch.png" alt="Couch" width={600} height={600} />
         </div>
 
         {/* Lamp */}
         <div
-          className="relative z-30 w-[100px] cursor-pointer"
+          className="absolute bottom-12 left-4 z-20 w-[100px] cursor-pointer"
           onClick={() => setLampOn(!lampOn)}
         >
           <Image src="/lamp.png" alt="Lamp" width={200} height={200} />
@@ -149,14 +161,14 @@ export default function Home() {
 
         {/* Side Table */}
         <div
-          className="relative z-20 w-[120px] cursor-pointer transition-transform duration-300 hover:scale-105"
+          className="absolute bottom-12 right-4 z-20 w-[120px] cursor-pointer transition-transform duration-300 hover:scale-105"
           onClick={() => setShowReadingWindow(!showReadingWindow)}
         >
           <Image src="/sidetable.png" alt="Side Table" width={250} height={250} />
         </div>
 
         {/* Framed Images row */}
-        <div className="flex flex-wrap justify-center gap-4 pt-6">
+        <div className="flex flex-wrap justify-center gap-4 pt-6 z-30 relative">
           <FramedImage
             src="/framedimages/friends.png"
             alt="Friends"
@@ -183,6 +195,7 @@ export default function Home() {
           />
         </div>
       </div>
+
 
       {/* Reading Window (shared) */}
       {showReadingWindow && (
