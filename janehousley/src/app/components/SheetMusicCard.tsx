@@ -7,7 +7,8 @@ type SheetMusicItem = {
     price: number;
     cover: string;
     audio: string;
-    paypalButtonId: string;
+    buyLink: string;
+
   };
   
 export default function SheetMusicCard({ item }: { item: SheetMusicItem }) {
@@ -29,16 +30,14 @@ export default function SheetMusicCard({ item }: { item: SheetMusicItem }) {
             Your browser does not support the audio element.
         </audio>
         <p className="text-lg font-bold mb-2">${item.price.toFixed(2)}</p>
-        <div dangerouslySetInnerHTML={{
-            __html: `
-            <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-                <input type="hidden" name="cmd" value="_s-xclick" />
-                <input type="hidden" name="hosted_button_id" value="${item.paypalButtonId}" />
-                <input type="hidden" name="currency_code" value="USD" />
-                <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" title="PayPal - The safer, easier way to pay online!" alt="Buy Now" />
-            </form>
-            `
-        }} />
+        <a
+        href={item.buyLink}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="bg-red-800 text-white px-4 py-2 rounded hover:bg-red-100 hover:text-gray-800"
+      >
+        Buy on LatterDayArrangements.com
+      </a>
 
         </div>
     );

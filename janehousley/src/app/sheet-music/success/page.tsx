@@ -6,15 +6,15 @@ import { useSearchParams } from "next/navigation";
 const sheetMusicMap: Record<string, { title: string; pdfPath: string }> = {
   "be-still-my-soul": {
     title: "Be Still My Soul",
-    pdfPath: "Be Still My Soul_Till We Meet Again.pdf",
+    pdfPath: "Be-Still-My-Soul_Till-We-Meet-Again.pdf",
   },
   "come-thou-fount": {
     title: "Come Thou Fount",
-    pdfPath: "Come Thou Fount_ New World Symphony.pdf",
+    pdfPath: "Come-Thou-Fount_New-World-Symphony.pdf",
   },
   "i-know-that-my-redeemer-lives": {
     title: "I Know That My Redeemer Lives",
-    pdfPath: "I Know That My Redeemer Lives_ If You Could Hie to Kolob.pdf",
+    pdfPath: "I-Know-That-My-Redeemer-Lives_If-You-Could-Hie-to-Kolob.pdf",
   },
 };
 
