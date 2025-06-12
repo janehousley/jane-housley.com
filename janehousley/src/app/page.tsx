@@ -149,31 +149,31 @@ export default function Home() {
 
           {/* Lamp */}
           <div
-          className="absolute left-10 bottom-30 z-30 cursor-pointer"
+          className="absolute left-1/2 transform -translate-x-50 bottom-30 z-30 cursor-pointer"
           onClick={() => setLampOn(!lampOn)}
         >
-          <Image src="/lamp.png" alt="Lamp" width={100} height={100} />
+          <Image src="/lamp.png" alt="Lamp" width={80} height={80} />
         </div>
 
         {/* Lamp Glow */}
         {lampOn && (
-          <div className="absolute bottom-60 z-10 w-55 h-55 rounded-full bg-yellow-200 opacity-60 blur-2xl"></div>
+          <div className="absolute bottom-50 left-1/2 transform -translate-x-60 z-10 w-40 h-40 rounded-full bg-yellow-200 opacity-60 blur-2xl"></div>
         )}
 
 
 
 
         {/* Couch */}
-        <div className="absolute bottom-25 left-30 z-30">
-          <Image src="/pink-couch.png" alt="Couch" width={300} height={300} />
+        <div className="absolute bottom-25 left-1/2 transform -translate-x-1/2 z-30">
+          <Image src="/pink-couch.png" alt="Couch" width={260} height={260} />
         </div>
 
         {/* Side Table */}
         <div
-          className="absolute bottom-30 left-95 z-30 cursor-pointer transition-transform duration-300 hover:scale-105"
+          className="absolute bottom-30 left-1/2 transform translate-x-30 z-30 cursor-pointer transition-transform duration-300 hover:scale-105"
           onClick={() => setShowReadingWindow(!showReadingWindow)}
         >
-          <Image src="/sidetable.png" alt="Side Table" width={125} height={125} />
+          <Image src="/sidetable.png" alt="Side Table" width={110} height={125} />
         </div>
 
         {/* Framed Images */}
