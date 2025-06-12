@@ -177,16 +177,42 @@ export default function Home() {
         </div>
 
         {/* Framed Images */}
+        <div className="grid grid-cols-3 grid-rows-2 max-w-[250px] mt-60 mx-auto justify-items-center items-center">
+        
+        <FramedImage
+          src="/framedimages/honey.png"
+          alt="Honey"
+          caption="My dog, Honey. We drove from Arizona to Utah for a family ski trip one winter, and drove home with a little puppy. 
+          There was a lot of debate on what we should name her, but we settled on Honey. The runner-up was Chewy."
+          width="50px"
+        />
+
+        <FramedImage
+          src="/framedimages/ski.png"
+          alt="Ski"
+          caption="Enjoying the outdoors has always been a big emphasis in my family. Between skiing, boating, backpacking, river rafting, and much more, 
+          I've come to appreciate the beauty and fun that this earth has to offer. 
+          Some of my favorite places are Park City Ski Resort, Yosemite, the Grand Canyon, and Myrtle Beach."
+          width="75px"
+        />
+        
         <FramedImage
           src="/framedimages/friends.png"
           alt="Friends"
           caption="A group of my friends and I during a Friendsgiving dinner last November. 
           As my 5 years in Provo comes to an end, I'm able to look back and reflect on all the friends I've made and the love I've felt. 
           I've been blessed with great friendships during my time at BYU."
-          bottom="390px"
-          left="325px"
           width="55px"
         />
+
+        <FramedImage
+          src="/framedimages/thekisspng.png"
+          alt="The Kiss"
+          caption="My favorite painting of all time is The Kiss by Gustav Klimt. I studied Art and Architecture abroad in Vienna in 2022 and learned a lot about Klimt and other Austrian and German artists. 
+          It was a life-changing experience."
+          width="50px"
+        />
+
         <FramedImage
           src="/framedimages/siblings.png"
           alt="Siblings"
@@ -194,47 +220,17 @@ export default function Home() {
           We've always been very close, enjoying every minute we get to spend together. 
           Now, my family spans the entire United States, with sisters in both Oregon and Washington, D.C.. 
           Times we get to be all together are rare and cherished. From left to right: Claire, Rachel, Grant, Jane, Kate."
-          bottom="300px"
-          left="215px"
           width="100px"
         />
-        <FramedImage
-          src="/framedimages/honey.png"
-          alt="Honey"
-          caption="My dog, Honey. We drove from Arizona to Utah for a family ski trip one winter, and drove home with a little puppy. 
-          There was a lot of debate on what we should name her, but we settled on Honey. The runner-up was Chewy."
-          bottom="360px"
-          left="150px"
-          width="50px"
-        />
+
         <FramedImage
           src="/framedimages/parents.png"
           alt="Parents"
           caption="I graduated in April 2025 with a masters degree in Math from BYU. 
           My parents both studied math at BYU, so it was a special experience to have both of them at my graduation ceremony."
-          bottom="295px"
-          left="325px"
           width="60px"
         />
-        <FramedImage
-          src="/framedimages/ski.png"
-          alt="Ski"
-          caption="Enjoying the outdoors has always been a big emphasis in my family. Between skiing, boating, backpacking, river rafting, and much more, 
-          I've come to appreciate the beauty and fun that this earth has to offer. 
-          Some of my favorite places are Park City Ski Resort, Yosemite, the Grand Canyon, and Myrtle Beach."
-          bottom="390px"
-          left="225px"
-          width="75px"
-        />
-        <FramedImage
-          src="/framedimages/thekisspng.png"
-          alt="The Kiss"
-          caption="My favorite painting of all time is The Kiss by Gustav Klimt. I studied Art and Architecture abroad in Vienna in 2022 and learned a lot about Klimt and other Austrian and German artists. 
-          It was a life-changing experience."
-          bottom="300px"
-          left="150px"
-          width="50px"
-        />
+        </div>
       </div>
 
 
