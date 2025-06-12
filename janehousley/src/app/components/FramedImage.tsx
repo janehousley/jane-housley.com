@@ -27,7 +27,7 @@ export default function FramedImage({
       <div
         className={`
           cursor-pointer z-40 transition-transform duration-300 hover:scale-105
-          relative md:absolute
+          absolute
         `}
         style={{
           width,
@@ -47,16 +47,16 @@ export default function FramedImage({
           onClick={() => setIsOpen(false)}
         >
           <div
-            className="bg-[url('/wallpaper2.jpg')] p-4 rounded shadow-lg max-w-3xl relative"
+            className="bg-[url('/wallpaper2.jpg')] p-4 rounded shadow-lg max-w-md max-h-[85vh] overflow-auto relative"
             onClick={(e) => e.stopPropagation()}
           >
-            <div className="relative w-full h-[80vh] mb-2">
+            <div className="relative w-full h-[55vh] mb-2">
               <Image
                 src={src}
                 alt={alt}
                 fill
                 style={{ objectFit: "contain" }}
-                sizes="(max-width: 768px) 100vw, 1024px"
+                sizes="(max-width: 768px) 100vw, 300px"
               />
             </div>
             <p className="bg-white/80 shadow-lg rounded text-center text-gray-700">{caption}</p>
