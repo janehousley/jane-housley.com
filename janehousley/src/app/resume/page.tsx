@@ -7,14 +7,13 @@ export default function Resume() {
             {/* Header Navigation */}
             <Header />
 
-            <div className="flex flex-col items-center px-4">  {/* add some side padding */}
+            <div className="mt-32 mb-32 border rounded shadow overflow-hidden mx-auto" style={{ width: "clamp(300px, 90vw, 650px)", aspectRatio: "8.5 / 11" }}>
                 <iframe
                     src="/Jane_Housley_Resume.pdf"
                     title="Jane Housley Resume"
-                    className="mt-32 mb-32 w-full max-w-[650px] aspect-[8.5/11] border rounded shadow"
+                    className="w-full h-full"
                 />
-            </div>
-
+                </div>
 
             <Footer />
         </main>

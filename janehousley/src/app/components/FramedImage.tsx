@@ -6,7 +6,7 @@ type FramedImageProps = {
   src: string;
   alt: string;
   caption: string;
-  top?: string;
+  bottom?: string;
   left?: string;
   width?: string;
 };
@@ -15,7 +15,7 @@ export default function FramedImage({
   src,
   alt,
   caption,
-  top = "200px",
+  bottom = "50px",
   left = "300px",
   width = "100px",
 }: FramedImageProps) {
@@ -32,21 +32,12 @@ export default function FramedImage({
         style={{
           width,
           // Only apply top/left in md:absolute mode (harmless on relative mobile because they don't apply)
-          top,
+          bottom,
           left,
         }}
         onClick={() => setIsOpen(true)}
       >
-        <div className="relative w-full aspect-square">
-          <Image
-            src={src}
-            alt={alt}
-            fill
-            style={{ objectFit: "contain" }}
-            sizes="(max-width: 768px) 100vw, 1024px"
-          />
-        </div>
-
+        <Image src={src} alt={alt} width={500} height={500} />
       </div>
 
       {/* The modal */}
@@ -56,7 +47,7 @@ export default function FramedImage({
           onClick={() => setIsOpen(false)}
         >
           <div
-            className="bg-[url('/wallpaper2.jpg')] p-3 md:p-4 rounded shadow-lg w-[90vw] max-w-sm md:max-w-3xl relative"
+            className="bg-[url('/wallpaper2.jpg')] p-4 rounded shadow-lg max-w-3xl relative"
             onClick={(e) => e.stopPropagation()}
           >
             <div className="relative w-full h-[80vh] mb-2">
