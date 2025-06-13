@@ -15,6 +15,9 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Jane Housley",
   description: "Jane Housley personal website",
+  icons: {
+    icon: "/favicon.png", // or "/favicon.png" if using PNG
+  },
 };
 
 export default function RootLayout({
