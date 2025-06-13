@@ -98,7 +98,7 @@ export default function Home() {
           src="/framedimages/honey.png"
           alt="Honey"
           caption="My dog, Honey. We drove from Arizona to Utah for a family ski trip one winter, and drove home with a little puppy. 
-          There was a lot of debate on what we should name her, but we settled on Honey. The runner-up was Chewy."
+          There was a lot of debate over what we should name her, but we settled on Honey. The runner-up was Chewy."
           bottom="500px"
           left="390px"
           width="100px"
@@ -183,7 +183,7 @@ export default function Home() {
           src="/framedimages/honey.png"
           alt="Honey"
           caption="My dog, Honey. We drove from Arizona to Utah for a family ski trip one winter, and drove home with a little puppy. 
-          There was a lot of debate on what we should name her, but we settled on Honey. The runner-up was Chewy."
+          There was a lot of debate over what we should name her, but we settled on Honey. The runner-up was Chewy."
           width="50px"
         />
 

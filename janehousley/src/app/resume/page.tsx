@@ -13,7 +13,8 @@ export default function Resume() {
                     title="Jane Housley Resume"
                     className="w-full h-full"
                 />
-                </div>
+
+            </div>
 
             <Footer />
         </main>
