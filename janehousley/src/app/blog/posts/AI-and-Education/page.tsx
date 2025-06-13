@@ -17,8 +17,8 @@ export default function AI_and_Education() {
                 topic requires defining what we&apos;re even talking about. <strong>AI is not new</strong>, at least not within 
                 the last couple years. Artificial Intelligence is any computer that has the capacity to do human work, 
                 and has been around for nearly a century, beginning with the Turing Test and early “feedbacks loops” 
-                in the 1950s. Why is AI a hot topic now then? While “AI” is not new, what is new is <strong>generative AI</strong> 
-                 and <strong>massive LLMs</strong> (large language models). Today, people use the term “AI” when referring mostly to 
+                in the 1950s. Why is AI a hot topic now then? While “AI” is not new, what is new is <strong>generative AI </strong> 
+                and <strong>massive LLMs</strong> (large language models). Today, people use the term “AI” when referring mostly to 
                 these massive generative AI models like ChatGPT, Claude, Gemini, etc. For the first time, AI models like 
                 ChatGPT are directly catered to the general public, so, for the first time, the term “AI” is in everyday 
                 speech. Like the internet, their target audience is… everyone. So, throughout this blog post, if I use 

@@ -91,7 +91,7 @@ export default function The_best_advice_I_got_in_college() {
                     clothes as the day before. I began scheduling a lunch break in my day, every day. This actually 
                     made me realize how inefficient it was to study through lunch. Packing a lunch and eating it while 
                     studying just gave me a distracted 30 minutes. It was much more productive to walk away from my computer, 
-                    take a break, eat a good meal, and then get back to work. I&apos;m a firm believe that clear, delineated 
+                    take a break, eat a good meal, and then get back to work. I&apos;m a firm believer that clear, delineated 
                     breaks help reinforce focused study. Don&apos;t blur the lines. On my lunch breaks, I would often meet 
                     up with friends in the Wilkinson Student Center for about an hour to eat together. This also provided 
                     a nice social hour in the middle of the day. Because it was on the forefront of our minds, we would 
