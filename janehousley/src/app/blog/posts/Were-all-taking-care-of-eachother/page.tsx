@@ -66,7 +66,7 @@ export default function Were_all_taking_care_of_eachother() {
             <p className="mx-auto text-left w-full max-w-prose">
                 The girls have formed a gifts and favors economy <br/>
                 Trading sweaters for sourdough <br/>
-                Wearing each other's pants <br/>
+                Wearing each other&apos;s pants <br/>
                 Doing each other&apos;s hair <br/>
             </p>
             <p>
