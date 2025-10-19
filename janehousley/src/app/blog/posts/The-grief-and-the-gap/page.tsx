@@ -1,5 +1,4 @@
 import BlogPostLayout from "@/app/components/BlogPostLayout";
-import Image from "next/image";
 
 export default function The_grief_and_the_gap() {
     return (
