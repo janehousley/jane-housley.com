@@ -25,7 +25,7 @@ export default function Blog() {
             </div>
 
             <div className="max-w-4xl bg-white/60 p-3 rounded-lg space-x-6 shadow-lg items-center mb-12">
-                <p className="italic text-gray-500 text-sm text-center">
+                <p className="text-gray-500 text-sm text-center">
                     I do a lot of thinking, and if I think about something for a long time, and I can bottle it up in a nice way, then I can store it here and make some space in my brain to think about something else. 
                     This is essentially a storage unit for my thoughts.
                 </p>
