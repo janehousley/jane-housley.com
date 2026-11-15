@@ -1,28 +1,36 @@
-import Header from "@components/Header";
+import PageShell from "@components/PageShell";
 import Link from "next/link";
 
-export default function BlogPostLayout({ title, subtitle, date, children }: { title: string; subtitle: string; date: string; children: React.ReactNode }) {
-    return (
-        <main className="relative min-h-screen w-full bg-[url('/wallpaper2.jpg')] bg-cover bg-center overflow-hidden flex flex-col items-center">
-            <Header />
+export default function BlogPostLayout({
+  title,
+  subtitle,
+  date,
+  children,
+}: {
+  title: string;
+  subtitle: string;
+  date: string;
+  children: React.ReactNode;
+}) {
+  return (
+    <PageShell width="max-w-2xl">
+      <Link href="/blog" className="rainbow-link text-xs uppercase tracking-[0.15em]">
+        ← All posts
+      </Link>
 
-            <article className="prose lg:prose-xl max-w-4xl bg-white/80 p-8 rounded-lg shadow-lg mt-32 mb-32 w-full">
-                {/* Back link */}
-                <Link href="/blog" className="text-2xl text-gray-600 hover:text-red-900 mb-4 inline-block">
-                    ←
-                </Link>
+      <header className="mt-8 mb-10">
+        <p className="text-xs uppercase tracking-[0.15em] text-muted mb-3">{date}</p>
+        <h1 className="text-4xl font-light tracking-tight leading-tight mb-3">{title}</h1>
+        <p className="text-lg text-muted">{subtitle}</p>
+      </header>
 
-                <h1 className="text-5xl font-bold text-gray-800 mb-2">{title}</h1>
-                <h2 className="text-2xl text-gray-600 italic">{subtitle}</h2>
-                <p className="text-gray-500 mb-6">{date}</p>
+      <article className="prose prose-stone lg:prose-lg max-w-none">{children}</article>
 
-                {children}
-
-                {/* Back link */}
-                <Link href="/blog" className="text-2xl text-gray-600 hover:text-red-900 mb-4 inline-block">
-                    ←
-                </Link>
-            </article>
-        </main>
-    );
+      <div className="mt-12 pt-6 border-t border-line">
+        <Link href="/blog" className="rainbow-link text-xs uppercase tracking-[0.15em]">
+          ← All posts
+        </Link>
+      </div>
+    </PageShell>
+  );
 }

@@ -31,13 +31,13 @@ function SuccessContent() {
     <main className="min-h-screen flex flex-col items-center justify-center p-6">
       {item ? (
         <>
-          <h1 className="text-3xl font-bold mb-4">Thank you for your purchase!</h1>
+          <h1 className="text-3xl font-light tracking-tight mb-4">Thank you for your purchase!</h1>
           <p className="mb-6 text-center">
             You purchased <strong>{item.title}</strong>.
           </p>
           <a
             href={`/api/download?pdf=${encodeURIComponent(item.pdfPath)}&token=${token}`}
-            className="bg-blue-500 text-white px-6 py-3 rounded-lg hover:bg-blue-600"
+            className="soft-button"
           >
             Download PDF
           </a>

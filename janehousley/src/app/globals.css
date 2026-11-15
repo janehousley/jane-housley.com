@@ -1,47 +1,108 @@
 @import "tailwindcss";
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@plugin "@tailwindcss/typography";
 
-
+/* Colors pulled from the home photo: the warm white wall and the foil letter stickers. */
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --wall: #f2ece4;
+  --paper: #fbf8f4;
+  --ink: #2b2724;
+  --muted: #6f665e;
+  --line: #e2d9ce;
+  --rainbow: linear-gradient(
+    90deg,
+    #c2188f 0%,
+    #6a2bd9 18%,
+    #1f6fd1 36%,
+    #0f9a7a 54%,
+    #c99a17 70%,
+    #e0592a 85%,
+    #e0307a 100%
+  );
 }
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
+  --color-wall: var(--wall);
+  --color-paper: var(--paper);
+  --color-ink: var(--ink);
+  --color-muted: var(--muted);
+  --color-line: var(--line);
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  background: var(--wall);
+  color: var(--ink);
+  font-family: var(--font-geist-sans), system-ui, sans-serif;
 }
 
-p {
-  line-height: 1.8;
-  margin-bottom: 1em;
-  color: rgb(57, 57, 57);
+/* Rainbow foil text, like the letter stickers */
+.rainbow-text {
+  background: var(--rainbow);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
 }
 
-h3 {
-  font-size: 1.5rem;
-  line-height: 2rem; 
-  margin-bottom: 1em;
-  color: #1F2937; 
+/* Links with a rainbow underline that draws in on hover / when active */
+.rainbow-link {
+  position: relative;
+  color: var(--muted);
+  padding-bottom: 3px;
+  transition: color 0.2s ease;
+}
+.rainbow-link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 2px;
+  border-radius: 2px;
+  background: var(--rainbow);
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.3s ease;
+}
+.rainbow-link:hover,
+.rainbow-link:focus-visible,
+.rainbow-link.is-active {
+  color: var(--ink);
+}
+.rainbow-link:hover::after,
+.rainbow-link:focus-visible::after,
+.rainbow-link.is-active::after {
+  transform: scaleX(1);
 }
 
-li {
-  color: rgb(57, 57, 57);
+/* Home page links sit on the photo, so they need a bit more contrast */
+.rainbow-link.home-link {
+  color: #4a433d;
+}
+.rainbow-link.home-link:hover,
+.rainbow-link.home-link:focus-visible {
+  color: var(--ink);
+}
+
+/* Simple outlined button that picks up a rainbow border on hover */
+.soft-button {
+  border: 1.5px solid var(--line);
+  border-radius: 999px;
+  padding: 0.6rem 1.4rem;
+  font-size: 0.85rem;
+  letter-spacing: 0.08em;
+  color: var(--ink);
+  background: var(--paper);
+  transition: border-color 0.2s ease;
+}
+.soft-button:hover,
+.soft-button:focus-visible {
+  border-color: transparent;
+  background: linear-gradient(var(--paper), var(--paper)) padding-box,
+    var(--rainbow) border-box;
+}
+
+/* Blog posts: comfortable reading serif */
+.prose {
+  font-family: Georgia, "Times New Roman", Times, serif;
 }

@@ -1,23 +1,20 @@
-import Header from "@components/Header";
-import Footer from "@components/Footer";
+import PageShell from "@components/PageShell";
 
 export default function Resume() {
-    return (
-        <main className="relative min-h-screen w-full bg-[url('/wallpaper2.jpg')] bg-cover bg-center overflow-hidden">
-            {/* Header Navigation */}
-            <Header />
-
-            <div className="mt-32 mb-32 border rounded shadow overflow-hidden mx-auto" style={{ width: "clamp(300px, 90vw, 650px)", aspectRatio: "8.5 / 11" }}>
-                <iframe
-                    src="/Jane_Housley_Resume.pdf"
-                    title="Jane Housley Resume"
-                    className="w-full h-full"
-                />
-
-            </div>
-
-            <Footer />
-        </main>
-    );
+  return (
+    <PageShell>
+      <div className="flex items-baseline justify-between mb-6">
+        <h1 className="text-3xl font-light tracking-tight">Resume</h1>
+        <a href="/Jane_Housley_Resume.pdf" download className="rainbow-link text-sm uppercase tracking-[0.15em]">
+          Download PDF
+        </a>
+      </div>
+      <div
+        className="w-full border border-line rounded-sm overflow-hidden bg-paper shadow-sm"
+        style={{ aspectRatio: "8.5 / 11" }}
+      >
+        <iframe src="/Jane_Housley_Resume.pdf" title="Jane Housley Resume" className="w-full h-full" />
+      </div>
+    </PageShell>
+  );
 }
-
