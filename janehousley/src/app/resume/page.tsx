@@ -13,7 +13,8 @@ export default function Resume() {
         className="w-full border border-line rounded-sm overflow-hidden bg-paper shadow-sm"
         style={{ aspectRatio: "8.5 / 11" }}
       >
-        <iframe src="/Jane_Housley_Resume.pdf" title="Jane Housley Resume" className="w-full h-full" />
+        {/* Ask the browser's PDF viewer to hide the page-thumbnail sidebar and open at 80% */}
+        <iframe src="/Jane_Housley_Resume.pdf#navpanes=0&zoom=80" title="Jane Housley Resume" className="w-full h-full" />
       </div>
     </PageShell>
   );
